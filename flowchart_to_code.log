@@ -1,0 +1,10 @@
+2025-04-04 20:37:28,821 [ERROR] Path not found: D:\Autoflow\models\flowchart_yolov5.pt
+2025-04-04 20:37:38,417 [ERROR] Path not found: D:\Autoflow\models\flowchart_yolov5.pt
+2025-04-04 20:37:38,510 [ERROR] Path not found: D:\Autoflow\models\flowchart_yolov5.pt
+2025-04-04 20:38:20,554 [CRITICAL] Processing failed: Implement your detection logic
+Traceback (most recent call last):
+  File "d:\Autoflow\main.py", line 53, in process_flowchart
+    elements = self._run_detection(image_path, weights_path, output_dir)
+  File "d:\Autoflow\main.py", line 87, in _run_detection
+    raise NotImplementedError("Implement your detection logic")
+NotImplementedError: Implement your detection logic

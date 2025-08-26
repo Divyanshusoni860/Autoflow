@@ -1,0 +1,6 @@
+train: D:/Autoflow/dataset/fcb/train
+val: D:/Autoflow/dataset/fcb/val
+test: D:/Autoflow/dataset/fcb/test
+
+nc: 7
+names: [start, process, decision, end, arrow, connector, offpage]
